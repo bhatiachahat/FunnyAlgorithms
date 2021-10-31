@@ -19,7 +19,9 @@ int main()
     else if (aResp[0] == 'y')
     {
         printf("Really? oh that's great\n");
+        
         printf("Hey have you ever searched for 'sea doggos' videos?\n");
+        
         fgets(bResp, 10, stdin);
         if (bResp[0]== 'n')
         {
